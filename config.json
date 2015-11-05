@@ -1,0 +1,7 @@
+﻿{
+    "host": "localhost:8888",
+    "database": "data/database.db",
+    "endpoints": {
+        "list": "/api/challenges"
+    }
+}
