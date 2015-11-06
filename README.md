@@ -57,3 +57,6 @@ Implement the 'Filter' option
 
 ### Step 6
 Implement the 'FromDate' and 'ToDate' options
+
+## Note
+To start your application in the codecheck enviroment, please change the "node app.js" in codecheck.yml to the starting command of your application.

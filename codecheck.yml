@@ -1,0 +1,5 @@
+web:
+  command: node app.js
+  console: true
+  testUrl: http://127.0.0.1:8888/api/challenges
+test: mocha spec
