@@ -4,19 +4,11 @@ var express = require('express'),
     database = require("./database.js");
 var app = express();
 
-//middleware to populate req.body.
-var bodyParser = require('body-parser');
-var multer = require('multer');
-var upload = multer(); // for parsing multipart/form-data
-
-app.use(bodyParser.json()); // for parsing application/json
-app.use(bodyParser.urlencoded({ extended: true })); // for parsing application/x-www-form-urlencoded
-
 app.listen(8888, function() {
     console.log("Server listening at port: 8888");
 });
 
-app.get('/api/challenges', upload.array(), function (req, res, next) {
+app.get('/api/challenges', function (req, res, next) {
     var data = req.query;
     
     // Set defaults
