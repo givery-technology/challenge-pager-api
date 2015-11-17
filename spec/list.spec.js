@@ -114,7 +114,7 @@ describe("list challenges", function () {
             });
     });
 
-    it("Step5 with filter", function (done) {
+    /*it("Step5 with filter", function (done) {
         host.api(API)
             .params({
                 "filter": "mew"
@@ -126,7 +126,7 @@ describe("list challenges", function () {
                 assert.equal(data.challenges[0].title, "Framework 1");
                 done();
             });
-    });
+    });*/
 
     it("Step6 with fromDate and toDate", function (done) {
         host.api(API)
