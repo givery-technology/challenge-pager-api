@@ -1,8 +1,12 @@
 ﻿{
     "name": "challenge-pager-api",
     "author": "Givery Inc",
-    "dependencies": { 
+    "main": "app.js",
+    "dependencies": {
         "api-first-spec": "^0.2.9",
-        "chai": "^3.4.0"
+        "chai": "^3.4.0",
+        "restify": "^4.0.3",
+        "sequelize": "^3.13.0",
+        "sqlite3": "^3.1.1"
     }
 }
