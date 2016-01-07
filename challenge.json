@@ -1,4 +1,5 @@
 ﻿{
+    "allowNewFile": true,
     "excludes": [
         "challenge.json",
         ".gitignore"
